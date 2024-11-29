@@ -4,7 +4,7 @@ from random import randint
 from PyQt6 import uic
 from PyQt6.QtCore import QPoint
 from PyQt6.QtGui import QColor, QPainter
-from PyQt6.QtWidgets import QWidget, QApplication
+from PyQt6.QtWidgets import QWidget, QApplication, QPushButton
 
 
 class Circles(QWidget):
