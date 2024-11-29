@@ -1,6 +1,6 @@
 import sys
-from random import randint
 
+from random import randint
 from PyQt6 import uic
 from PyQt6.QtCore import QPoint
 from PyQt6.QtGui import QColor, QPainter
