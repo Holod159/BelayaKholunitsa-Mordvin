@@ -28,6 +28,7 @@ class Circles(QWidget, Ui_Form):
     def draw(self, qp: QPainter):
         qp.setPen(self.color)
         qp.drawEllipse(self.point, self.radius, self.radius)
+        qp.drawEllipse(self.point, self.radius // 2, self.radius // 2)
 
     def paintEvent(self, event):
         if self.f:
